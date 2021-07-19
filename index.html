@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testinis js</title>
+    <link rel="stylesheet" href="js.js">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <input type="number" id="kiekis" value="1">
+    <button id="krepselis"> Į krepšelį</button>
+    <button id="atnaujinti"> reload</button>
+    <div id="messages"></div>
+    <div id=tekstas>Labas</div>
+    <button type="button" onclick="pakeisti ()">Click Me!</button>
+
+    <table class="lentele">
+        <thead>
+            <tr>
+                <th>Miestas</th>
+                <th>Adresas</th>
+                <th>Data</th>
+                <th>Kiekis</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+
+    <label for="cars">Choose a car:</label>
+
+    <select id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+    <button id="btn"> Tikrinti </button>
+
+    <button id="naujasmygtukas" class="naujasmygtukas"> Naujas mygtukas</button>
+
+    <p>1.</p>
+    <p id="aboutMe"></p>
+
+    <p>2.</p>
+    <p>Click the button to round the number 4,98 to its nearest integer.</p>
+    <button onclick="myFunction()">Try it</button>
+    <p id="unequelNumber"></p>
+
+    <p>6.</p>
+    <p>Click the button to display a random number.</p>
+
+    <button onclick="myFunction2()">Try it</button>
+
+    <p id="randomNumber"></p>
+
+    <p>7.</p>
+
+    <p>Every time you click the button we generate three random numbers between -10  
+        and 10 (both included):</p>
+    <button onclick="document.getElementById('rndNmbr').innerHTML = getRndInteger(-10,10)">Click Me</button>
+    <p id="rndmNmbr"></p><p id="rndmNmbr2"></p><p id="rndmNmbr3"></p>
+    
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="js.js"></script>  
+</body>
+</html>
